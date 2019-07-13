@@ -1,15 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nauka Frontendu</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Oswald&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <h1>Hello world!</h1>
-  
-  <script src="js/main.js"></script>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="navigation__list navigation__list--js">
+                <li class="navigation__item">
+                    <a class='navigation__link' href="Wojcieszow.html">Wojcieszów</a>
+                </li>
+                <li class="navigation__item">
+                    <a class='navigation__link' href="Gory Stolowe.html">Góry Stołowe</a>
+                </li>
+                <li class="navigation__item">
+                    <a class='navigation__link' href="Głowny Szlak Swietokrzyski.html">Główny Szlak Świętokrzyski</a>
+                </li>
+                <li class="navigation__item">
+                    <a class='navigation__link' href="Beskid Slaski i Zywiecki.html">Beskid Śląski i Żywiecki</a>
+                </li>
+                <li class="navigation__item">
+                    <a class='navigation__link' href="Gruzja.html">Gruzja</a>
+                </li>
+                <li class="navigation__item">
+                    <a class='navigation__link' href="Jurajski Rowerowy Szlak Orlich Gniazd.html">Szlak Orlich
+                        Gniazd</a>
+                </li>
+                <li class="navigation__item">
+                    <a class='navigation__link' href="Kazachstan.html">Kazachstan</a>
+                </li>
+                <li class="navigation__item">
+                    <a class='navigation__link' href="Bieszczady.html">Bieszczady</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="navigation__switcher navigation__switcher--js" aria-label="otwórz menu">≡</button>
+    </header>
+    <main>
+        <header>
+            <h1 class="header--js header__title" id="top">Paweł Tobys - Strona domowa</h1>
+        </header>
+
+        <section>
+            <img class="index__picture" src="Pictures/ja.png" alt="Paweł Tobys" title="Paweł Tobys">
+            <h2>Kim jestem?</h2>
+            <p class="index__description">Cześć. Nazywam się Paweł Tobys i pochodzę z Wolsztyna. Studiowałem w Poznaniu
+                na UAM kierunek geologia ze
+                specjalizacją hydrogeologia
+                i geologia inżynierska. Aktualnie mieszkam i pracuję w Poznaniu. Zainteresowałem się IT ponieważ uważam,
+                że jest to branża z ogromnymi możliwościami
+                rozwoju. Uczę się programowania od początku 2019 roku z materiałów dostępnym w internecie. W maju
+                zapisałem się na kurs WTF: Co Ten Frontend dzięki
+                któremu tworzę moją pierwszą stronę internetową. Jestem miłośnikiem gór, jazdy na rowerze i podróży z
+                plecakiem. Dlatego w pamiętniku zamieszczę opis kilku
+                wyjazdów, które na zawsze zapadły mi w pamięci. W miarę rozwijania strony będę zamieszczać kolejne
+                wpisy.
+
+            </p>
+        </section>
+        <h2 id="pamietniczek">Pamiętniczek</h2>
+        <section class="grid__diary">
+            <section>
+                <h3>Wojcieszów</h3>
+                <p>Wyjazd z sekcją speleologiczną, który odbył się w listopadzie 2012 roku.</p>
+                <a class='link' href="Wojcieszow.html">Przejdź do opisu</a>
+            </section>
+            <section>
+                <h3>Góry Stołowe</h3>
+                <p>Majówka 2013 wspólnie spędzona ze znajomymi. Pierwsza wizyta na Szczelińcu.</p>
+                <a class='link' href="Gory Stolowe.html">Przejdź do opisu</a>
+            </section>
+            <section>
+                <h3>Główny Szlak Świętokrzyski</h3>
+                <p>Z kolegami ze studiów spakowaliśmy plecaki i pomaszerowaliśmy w góry.
+                </p>
+                <a class='link' href="Głowny Szlak Swietokrzyski.html">Przejdź do opisu</a>
+            </section>
+            <section>
+                <h3>Beskid Śląski i Żywiecki</h3>
+                <p>W 2015 roku nie było lepszej opcji na spędzenia sierpnia w górach.</p>
+                <a class='link' href="Beskid Slaski i Zywiecki.html">Przejdź do opisu</a>
+            </section>
+            <section>
+                <h3>Gruzja</h3>
+                <p>Świeżo upieczony magister Paweł wyrusza w swoją pierwszą zagraniczną podróż z
+                    plecakiem.</p>
+                <a class='link' href="Gruzja.html">Przejdź do opisu</a>
+            </section>
+            <section>
+                <h3>Jurajski Rowerowy Szlak Orlich Gniazd</h3>
+                <p>Z całej załogi na Pamiątkowej tylko Postoł i ja nie wykruszyliśmy się i ruszyliśmy do Krakowa.</p>
+                <a class='link' href="Jurajski Rowerowy Szlak Orlich Gniazd.html">Przejdź do opisu</a>
+            </section>
+            <section>
+                <h3>Kazachstan</h3>
+                <p>Kolejny cel podróży na wschodzie. Tym razem bez Robsona. Kwiecień 2018 rok.</p>
+                <a class='link' href="Kazachstan.html">Przejdź do opisu</a>
+            </section>
+            <section>
+                <h3>Bieszczady</h3>
+                <p>Ledwo zdążyłem się otrząsnąć po Kazachstanie, a już trzeba było wyruszać na majowkę.</p>
+                <a class='link' href="Bieszczady.html">Przejdź do opisu</a>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#top" class="top">Na górę</a>
+        <p class="index__footer">Strona domowa Pawła Tobysa, wszystkie treści są efektem szkolenia WTF: Co ten Frontend
+        </p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
