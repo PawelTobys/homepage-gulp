@@ -311,19 +311,21 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
 body {
-  background-image: url(Pictures/tlo.png);
+  background-image: url(assets/Pictures/tlo.png);
   background-size: cover;
   background-position: bottom center;
   background-attachment: fixed;
   margin-top: 70px; }
 
 main {
-  font-family: 'Oswald', 'Fjalla One', 'Anton', sans-serif;
+  font-family: "Oswald", "Fjalla One", "Anton", sans-serif;
   text-align: center;
   text-decoration: none;
   width: 100%;
