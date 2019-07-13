@@ -318,7 +318,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background-image: url(assets/Pictures/tlo.png);
+  background-image: url("assets/Pictures/tlo.png");
   background-size: cover;
   background-position: bottom center;
   background-attachment: fixed;
