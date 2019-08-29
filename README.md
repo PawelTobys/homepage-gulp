@@ -1,9 +1,16 @@
-# wtf-gulp-starter
+# Project No. 4 - Homepage - GULP
+This is the continuation of my first project. I used Gulp and the Sass preprocessor here to improve the readability of the code.
 
-`npm install -g gulp-cli`
+## Table of contents
+* [General info](#general-info)
+* [Status](#status)
+* [Link](#link)
 
-`npm install`
+## General info
+The content of this website describes about my different travels and adventures.
 
-`gulp`
+## Status
+Project is: _in progress_
 
-To publish your page using github pages use `npm run deploy`
+## Link
+https://paweltobys.github.io/homepage-gulp/index.html
